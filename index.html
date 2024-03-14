@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- header Alona-->
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header-container">
         <img src="./images/Vector.svg" alt="logo" width="52" height="66" />
         <nav class="nav">
@@ -33,10 +33,10 @@
         </nav>
         <button class="nav-button btn" type="button">Order Now</button>
       </div>
-    </header>
+    </header> -->
     <main>
       <!-- hero Mariia-->
-      <section class="intro">
+      <!-- <section class="intro">
         <div class="container hero-container">
           <div class="hero-text">
             <h1 class="main-header">Enjoy Your Favorite Food From Anywhere</h1>
@@ -56,10 +56,10 @@
             height="528"
           />
         </div>
-      </section>
+      </section> -->
 
       <!-- offering Anastasiia-->
-      <section class="offering">
+      <!-- <section class="offering">
         <div class="container">
           <div class="offering-flex">
             <div class="container-apple-one">
@@ -115,10 +115,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Favorites  Section 3 Arsenii-->
-      <section class="favorites">
+      <!-- <section class="favorites">
         <div class="container container-favorites">
           <h2 class="favorites-title">Some of Our Favorites</h2>
           <p class="favorites-text">Looking for something delicious?</p>
@@ -173,9 +173,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- customers Alina-->
-      <section class="customers">
+      <!-- <section class="customers">
         <div class="container">
           <h2 class="title">What our Customers Say</h2>
           <p class="subscribe">
@@ -251,52 +251,61 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- subscribe Ruslan-->
       <section class="section-subscribe">
-        <h4 class="visually-hidden">
-          Stvorena nova papka i sinhroniziroval spochatku
-        </h4>
-        <div class="container all-contant-section">
-          <div class="container-content-subscribe">
-            <h3 class="title-subscribe-one">Subscribe To Get Special Offers</h3>
+        <div class="container all-container-section">
+          <div class="container-subscribe-image">
+            <picture>
+              <source
+                srcset="./images/banan3201x.jpg 1x, ./images/banan3202x.jpg 2x"
+                media="(max-width: 768px)"
+              />
+              <source
+                srcset="./images/banan3201x.jpg 1x, ./images/banan3202x.jpg 2x"
+                media="(min-width: 768px)"
+              />
+              <!-- <source
+                srcset="
+                  ./images/banan11581x.jpg 1x,
+                  ./images/banan11582x.jpg 2x
+                "
+                media="(min-width 1158px)"
+              /> -->
+
+              <img
+                class="subscribe-image"
+                src="./images/banan11581x.jpg"
+                alt="banan"
+                width="608"
+              />
+            </picture>
+          </div>
+          <div class="container-text">
+            <h3 class="title-subscribe">Subscribe To Get Special Offers</h3>
             <p class="paragraph-subscribe">
               Order now and receive 10% off your first meal with Enjoy Your
               Favorite Food From Anywhere.
             </p>
-            <form
-              for="user-email-sbscbe"
-              class="form-subscribe"
-              name="email"
-              autocomplete="on"
-            >
+          </div>
+          <div class="container-form">
+            <form class="form" name="issue_report_form" autocomplete="off">
               <label class="form-label">
                 <input
-                  type="email"
-                  required
+                  type="text"
                   class="form-input"
-                  name="email"
-                  id="user-email-sbscbe"
+                  name="topic"
                   placeholder="Enter your email"
                 />
               </label>
-
               <button class="button-sub" type="button">Subscribe</button>
             </form>
-          </div>
-          <div class="container-subscribe-image">
-            <img
-              class="subscribe-image"
-              src="./images/banan-min.png"
-              alt="banan"
-              width="608"
-            />
           </div>
         </div>
       </section>
     </main>
     <!-- footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-fon">
         <div class="footer-nav container">
           <div class="nav-container">
@@ -358,6 +367,6 @@
           <p class="footer-bottom-text">2022 FoodSta. All right reserved.</p>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
